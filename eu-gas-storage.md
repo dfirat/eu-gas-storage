@@ -17,7 +17,7 @@ library("jsonlite")
 ### Import data sets [(Source)](https://agsi.gie.eu/)
 
 ``` r
-eu <- fromJSON("StorageData_GIE_2012-09-12_2022-09-12.json", flatten = TRUE)
+eu <- fromJSON("StorageData_GIE_2016-04-07_2022-09-14.json", flatten = TRUE)
 ```
 
 ### Add new year and month column
@@ -66,10 +66,6 @@ eu2020 <- eu[eu$year == 2020, ]
 eu2019 <- eu[eu$year == 2019, ]
 eu2018 <- eu[eu$year == 2018, ]
 eu2017 <- eu[eu$year == 2017, ]
-eu2016 <- eu[eu$year == 2016, ]
-eu2015 <- eu[eu$year == 2015, ]
-eu2014 <- eu[eu$year == 2014, ]
-eu2013 <- eu[eu$year == 2013, ]
 ```
 
 ### Save new data set
@@ -85,8 +81,4 @@ write.csv(eu2020, "eu-gas-storage2020.csv")
 write.csv(eu2019, "eu-gas-storage2019.csv")
 write.csv(eu2018, "eu-gas-storage2018.csv")
 write.csv(eu2017, "eu-gas-storage2017.csv")
-write.csv(eu2016, "eu-gas-storage2016.csv")
-write.csv(eu2015, "eu-gas-storage2015.csv")
-write.csv(eu2014, "eu-gas-storage2014.csv")
-write.csv(eu2013, "eu-gas-storage2013.csv")
 ```
