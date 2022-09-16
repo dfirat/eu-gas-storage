@@ -13,3 +13,5 @@ I used Tableau to visualize the results, which can be viewed [here](https://publ
 Although gas supplies from Russia to the EU have declined significantly, gas storage facilities are currently filling up noticeably. It is also worth highlighting that they are currently being filled at a slightly faster rate than the 2016-2021 average.
 
 [![Dashboard](Dashboard.png)](https://public.tableau.com/app/profile/dfirat/viz/LevelofEUgasstoragefacilities/Dashboard)
+
+Source: GIE AGSI. Data last updated: September 14, 2022
